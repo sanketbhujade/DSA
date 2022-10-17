@@ -1,5 +1,13 @@
 #include <iostream>
 using namespace std;
+///////optimal solution
+long long digitinnumsoptimal(long long n)
+{     if(n==0)
+       return 1;
+       else
+      return floor(log10(n)+1);///////////////////////////////////////////
+
+}
 long long digitinnums(long long n)
 {
    long long dig=1;           //>>>>>>>>>>>>long long is used to widen range
@@ -18,7 +26,7 @@ int main() {
     long long n;
    cout<<"enter number"<<endl;
    cin>>n;
-   cout<<"digits in number are="<<digitinnums(n);
+   cout<<"digits in number are="<<digitinnumsoptimal(n);
 
     return 0;
 }
