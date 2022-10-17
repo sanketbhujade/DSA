@@ -21,4 +21,5 @@ int main() {
     cout<<"sum is "<< naturalnum_sum(n)<<"\n output with optimal solution"<<optimized(n);
 
 return 0;
+    
 }
