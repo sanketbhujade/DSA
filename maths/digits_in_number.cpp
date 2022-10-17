@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 ///////optimal solution
 long long digitinnumsoptimal(long long n)
