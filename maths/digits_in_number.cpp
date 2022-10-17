@@ -8,7 +8,12 @@ long long digitinnums(long long n)
      
      return dig;
 }
-
+long long dignum_RECURSIVE(long long n) //with recursive code
+{
+   if(n<9)
+   return 1;
+   else return 1+digitinnums(n/10);
+}
 int main() {
     long long n;
    cout<<"enter number"<<endl;
